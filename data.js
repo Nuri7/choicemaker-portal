@@ -8,7 +8,7 @@ export const shops = [
     category: "Tea Houses",
     image: "images/kyo_cover_1777740417130.png",
     links: {
-      menu: "https://kyoklub.com/menu",
+      menu: "https://nuri7.github.io/kyo/drinks",
       play: "https://nuri7.github.io/kyo/"
     }
   },
