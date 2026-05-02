@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'images/*.png'],
+      includeAssets: ['logo.png', 'images/*.png'],
       manifest: {
         name: 'Choicemaker Directory',
         short_name: 'Choicemaker',
@@ -16,8 +16,8 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: 'https://cdn-icons-png.flaticon.com/512/5262/5262013.png',
-            sizes: '512x512',
+            src: 'logo.png',
+            sizes: '1024x1024',
             type: 'image/png'
           }
         ]
