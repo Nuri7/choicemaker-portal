@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5262/5262013.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Choicemaker Directory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.321.0/font/lucide.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="app-header">
+        <h1>Choicemaker</h1>
+        <i class="icon-lucide" data-lucide="search"></i>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <h2>Find your sanctuary.</h2>
+        <div class="search-bar">
+          <i class="icon-lucide" data-lucide="search"></i>
+          <input type="text" id="searchInput" placeholder="Search neighborhoods or shops..." />
+        </div>
+      </section>
+
+      <!-- Filter Categories -->
+      <section class="filter-carousel">
+        <button class="filter-pill active" data-category="all">All Experiences</button>
+        <button class="filter-pill" data-category="Tea Houses">Tea Houses</button>
+        <button class="filter-pill" data-category="Dessert">Dessert</button>
+        <button class="filter-pill" data-category="Bars">Bars</button>
+        <button class="filter-pill" data-category="Cafes">Cafes</button>
+        <button class="filter-pill" data-category="Restaurants">Restaurants</button>
+      </section>
+
+      <!-- Main Content (Cards) -->
+      <main class="shop-list" id="shopList">
+        <!-- Cards injected via JS -->
+      </main>
+
+      <!-- Bottom Navigation -->
+      <nav class="bottom-nav">
+        <a href="#" class="nav-item active">
+          <i class="icon-lucide" data-lucide="compass"></i>
+          <span>Directory</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i class="icon-lucide" data-lucide="map"></i>
+          <span>Map</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i class="icon-lucide" data-lucide="menu"></i>
+          <span>Favorites</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i class="icon-lucide" data-lucide="user"></i>
+          <span>Profile</span>
+        </a>
+      </nav>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <!-- Lucide Icons script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
