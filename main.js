@@ -1,5 +1,16 @@
 import './style.css';
 import { shops } from './data.js';
+import { registerSW } from 'virtual:pwa-register';
+
+const updateSW = registerSW({
+  onNeedRefresh() {
+    // Optional: prompt user to refresh
+  },
+  onOfflineReady() {
+    console.log('PWA is ready to work offline');
+  },
+});
+
 
 // Render shops
 const renderShops = (filteredShops) => {

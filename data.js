@@ -6,7 +6,7 @@ export const shops = [
     location: "Centrum",
     description: "A serene space dedicated to the art of Japanese tea. Specializing in high-quality matcha.",
     category: "Tea Houses",
-    image: "/images/kyo_cover_1777740417130.png",
+    image: "images/kyo_cover_1777740417130.png",
     links: {
       menu: "https://example.com/kyo-menu",
       play: "https://nuri7.github.io/kyo/"
@@ -19,7 +19,7 @@ export const shops = [
     location: "De Pijp",
     description: "Artisanal stroopwafels crafted with organic ingredients. Experience the warm, gooey caramel.",
     category: "Dessert",
-    image: "/images/stroopist_cover_1777740431696.png",
+    image: "images/stroopist_cover_1777740431696.png",
     links: {
       menu: "https://example.com/stroopist-menu",
       play: "http://thestroopist.nl/"
@@ -32,7 +32,7 @@ export const shops = [
     location: "West",
     description: "Vibrant food hall and cocktail bar in a former tram depot. Perfect for evening drinks.",
     category: "Bars",
-    image: "/images/kanarie_cover_1777740448056.png",
+    image: "images/kanarie_cover_1777740448056.png",
     links: {
       menu: "https://example.com/kanarie-menu",
       play: "https://nuri7.github.io/kanarie-club-choice/"
@@ -45,7 +45,7 @@ export const shops = [
     location: "Alphen aan den Rijn",
     description: "Cozy brown café with a wide selection of craft beers and a welcoming local atmosphere.",
     category: "Cafes",
-    image: "/images/gouwe_cover_1777741250260.png",
+    image: "images/gouwe_cover_1777741250260.png",
     links: {
       menu: "https://example.com/gouwe-menu",
       play: "https://nuri7.github.io/cafe-de-gouwe-choice/"
@@ -58,7 +58,7 @@ export const shops = [
     location: "Leiderdorp",
     description: "Elegant French-Dutch brasserie offering refined dishes and a beautiful park view.",
     category: "Restaurants",
-    image: "/images/brasserie_cover_1777741973245.png",
+    image: "images/brasserie_cover_1777741973245.png",
     links: {
       menu: "https://example.com/brasserie-menu",
       play: "https://nuri7.github.io/choicemaker_brasseriepark/"
@@ -71,7 +71,7 @@ export const shops = [
     location: "Langenburg",
     description: "Mediterranean cuisine with heart. Enjoy stylish dining and regional specialties.",
     category: "Restaurants",
-    image: "/images/krone_cover_1777741987249.png",
+    image: "images/krone_cover_1777741987249.png",
     links: {
       menu: "https://example.com/krone-menu",
       play: "https://nuri7.github.io/krone/"
