@@ -9,7 +9,7 @@ export const shops = [
     image: "images/kyo_cover_1777740417130.png",
     links: {
       menu: "https://nuri7.github.io/kyo/drinks",
-      play: "https://nuri7.github.io/kyo/"
+      play: "https://nuri7.github.io/kyo/quiz/"
     }
   },
   {
