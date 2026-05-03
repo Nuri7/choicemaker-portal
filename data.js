@@ -21,7 +21,7 @@ export const shops = [
     category: "Dessert",
     image: "images/stroopist_cover_1777740431696.png",
     links: {
-      menu: "https://example.com/stroopist-menu",
+      menu: "https://thestroopist.nl/coffeepastry",
       play: "http://thestroopist.nl/"
     }
   },
